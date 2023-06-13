@@ -2692,7 +2692,7 @@ section {
 	}
 	.box-minimal-border {
 		padding: 40px 25px 45px;
-		min-height: 365px;
+		min-height: 220px;
 	}
 	.box-minimal-border .box-minimal-icon {
 		font-size: 48px;
