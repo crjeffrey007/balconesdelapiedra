@@ -2329,8 +2329,8 @@ section {
 .bg-secondary-2 .button-default-outline:active,
 .bg-secondary-2 .button-default-outline:hover {
 	color: #ffffff;
-	background-color: #ffa900;
-	border-color: #ffa900;
+	background-color: #ce1c2e;
+	border-color: #ce1c2e;
 }
 
 /**
@@ -2601,11 +2601,11 @@ section {
 .box-minimal .box-minimal-icon {
 	font-size: 30px;
 	line-height: 1;
-	color: #ffa900;
+	color: #ce1c2e;
 }
 
 .box-minimal-icon svg {
-	fill: #ffa900;
+	fill: #ce1c2e;
 }
 
 .box-minimal-title {
@@ -2659,11 +2659,11 @@ section {
 
 .box-minimal-border .box-minimal-icon {
 	font-size: 30px;
-	color: #ffa900;
+	color: #ce1c2e;
 }
 
 .box-minimal-border .box-minimal-icon svg {
-	fill: #ffa900;
+	fill: #ce1c2e;
 }
 
 .box-minimal-border .box-minimal-title {
@@ -3075,8 +3075,8 @@ section {
 
 .button-primary, .button-primary:focus {
 	color: #ffffff;
-	background-color: #2c20c0;
-	border-color: #2c20c0;
+	background-color: #ce1c2e;
+	border-color: #ce1c2e;
 }
 
 .button-primary:hover, .button-primary:active, .button-primary:hover {
@@ -3087,8 +3087,8 @@ section {
 
 .button-secondary, .button-secondary:focus {
 	color: #ffffff;
-	background-color: #ffa900;
-	border-color: #ffa900;
+	background-color: #ce1c2e;
+	border-color: #ce1c2e;
 }
 
 .button-secondary:hover, .button-secondary:active, .button-secondary:hover {
