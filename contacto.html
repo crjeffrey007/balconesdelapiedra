@@ -204,44 +204,20 @@
                   <hr class="divider divider-left divider-secondary">
                   <p class="big">You can contact us any way that is convenient for you. We are available 24/7 via fax or email. You can also use a quick contact form below or visit our office personally.</p>
                   <!-- RD Mailform-->
-                  <form class="rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
-                    <div class="row row-fix row-20">
-                      <div class="col-md-6">
-                        <div class="form-wrap form-wrap-validation">
-                          <label class="form-label-outside" for="form-1-name">First name</label>
-                          <input class="form-input" id="form-1-name" type="text" name="name" data-constraints="@Required"/>
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="form-wrap form-wrap-validation">
-                          <label class="form-label-outside" for="form-1-last-name">Last name</label>
-                          <input class="form-input" id="form-1-last-name" type="text" name="last-name" data-constraints="@Required"/>
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="form-wrap form-wrap-validation">
-                          <label class="form-label-outside" for="form-1-email">E-mail</label>
-                          <input class="form-input" id="form-1-email" type="email" name="email" data-constraints="@Email @Required"/>
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="form-wrap form-wrap-validation">
-                          <label class="form-label-outside" for="form-1-phone">Phone</label>
-                          <input class="form-input" id="form-1-phone" type="text" name="phone" data-constraints="@Numeric @Required"/>
-                        </div>
-                      </div>
-                      <div class="col-sm-12">
-                        <div class="form-wrap form-wrap-validation">
-                          <label class="form-label-outside" for="form-1-message">Message</label>
-                          <textarea class="form-input" id="form-1-message" name="message" data-constraints="@Required"></textarea>
-                        </div>
-                      </div>
-                      <div class="col-sm-12 offset-custom-1">
-                        <div class="form-button">
-                          <button class="button button-secondary button-nina" type="submit">send message</button>
-                        </div>
-                      </div>
-                    </div>
+                     <form
+                       action="https://formspree.io/f/mrgvnlge"
+                       method="POST"
+                       >
+                       <label>
+                       Your email:
+                       <input type="email" name="email">
+                       </label>
+                       <label>
+                       Your message:
+                       <textarea name="message"></textarea>
+                      </label>
+                     <!-- your other form fields go here -->
+                    <button type="submit">Send</button>
                   </form>
                 </div>
               </div>
