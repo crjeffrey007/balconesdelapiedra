@@ -203,21 +203,17 @@
                   <hr class="divider divider-left divider-secondary">
                   <p class="big">You can contact us any way that is convenient for you. We are available 24/7 via fax or email. You can also use a quick contact form below or visit our office personally.</p>
                   <!-- RD Mailform-->
-                     <form
-                       action="https://formspree.io/f/mrgvnlge"
-                       method="POST"
-                       >
-                       <label>
-                       Your email:
-                       <input type="email" name="email">
-                       </label>
-                       <label>
-                       Your message:
-                       <textarea name="message"></textarea>
-                      </label>
-                     <!-- your other form fields go here -->
-                    <button type="submit">Send</button>
-                  </form>
+                     <form action="https://formspree.io/f/mrgvnlge" method="POST">
+                      <label for="full-name">Nombre</label>
+                      <input type="text" name="name" id="full-name" placeholder="Nombre y Apellidos" required="">
+                      <label for="email-address">Email</label>
+                      <input type="email" name="_replyto" id="email-address" placeholder="su@email.com" required="">
+                      <label for="message">Mensaje</label>
+                      <textarea rows="5" name="message" id="message" placeholder="Escribe su mensaje." required=""></textarea>
+                      <input type="hidden" name="_subject" id="email-subject" value="Contacto Balcones de la Piedra">
+                      </fieldset>
+                      <input type="submit" value="Enviar">
+                     </form>
                 </div>
               </div>
             </div>
