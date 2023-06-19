@@ -18035,66 +18035,6 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 	pointer-events: none;
 	opacity: .5;
 }
-nav ul {
-  list-style: none;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline-block;
-  position: relative;
-}
-
-nav ul li a {
-  display: block;
-  padding: 10px 20px;
-  color: #151515; /* Cambio de color de fuente a blanco */
-  text-decoration: none;
-  background-color: #ffffff; /* Cambio de color de fondo a #151515 */
-}
-
-nav ul li:hover > ul {
-  display: block;
-}
-
-nav ul ul {
-  display: none;
-  position: absolute;
-  top: 100%;
-}
-
-nav ul ul li {
-  width: 200px;
-  float: none;
-  display: list-item;
-  position: relative;
-}
-
-nav ul ul ul li {
-  position: relative;
-  top: -60px;
-  left: 200px;
-}
-
-nav a:focus {
-  background: #ffffff; /* Cambio de color de fondo al estar activo a #ce1c2e */
-  color: #ffa900; /* Cambio de color de fuente al estar activo a #ffa900 */
-}
-
-nav ul ul li a {
-  padding: 10px 30px;
-  color: #fff; /* Cambio de color de fuente a blanco */
-}
-
-nav ul ul li a:hover {
-  background: #EEE;
-}
-
-nav ul ul ul {
-  position: absolute;
-  left: 100%;
-  top: 0;
-}
 
 /*
 *
