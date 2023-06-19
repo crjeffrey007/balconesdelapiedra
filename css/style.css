@@ -18035,7 +18035,6 @@ html[dir='rtl'] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 	pointer-events: none;
 	opacity: .5;
 }
-
 nav ul {
   list-style: none;
   padding: 0;
@@ -18049,8 +18048,9 @@ nav ul li {
 nav ul li a {
   display: block;
   padding: 10px 20px;
-  color: #333;
+  color: #fff; /* Cambio de color de fuente a blanco */
   text-decoration: none;
+  background-color: #151515; /* Cambio de color de fondo a #151515 */
 }
 
 nav ul li:hover > ul {
@@ -18077,12 +18077,13 @@ nav ul ul ul li {
 }
 
 nav a:focus {
-  background: #EEE;
+  background: #ce1c2e; /* Cambio de color de fondo al estar activo a #ce1c2e */
+  color: #ffa900; /* Cambio de color de fuente al estar activo a #ffa900 */
 }
 
 nav ul ul li a {
   padding: 10px 30px;
-  color: #333;
+  color: #fff; /* Cambio de color de fuente a blanco */
 }
 
 nav ul ul li a:hover {
