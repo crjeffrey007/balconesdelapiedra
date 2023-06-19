@@ -18048,9 +18048,9 @@ nav ul li {
 nav ul li a {
   display: block;
   padding: 10px 20px;
-  color: #fff; /* Cambio de color de fuente a blanco */
+  color: #151515; /* Cambio de color de fuente a blanco */
   text-decoration: none;
-  background-color: #151515; /* Cambio de color de fondo a #151515 */
+  background-color: #ffffff; /* Cambio de color de fondo a #151515 */
 }
 
 nav ul li:hover > ul {
@@ -18077,7 +18077,7 @@ nav ul ul ul li {
 }
 
 nav a:focus {
-  background: #ce1c2e; /* Cambio de color de fondo al estar activo a #ce1c2e */
+  background: #ffffff; /* Cambio de color de fondo al estar activo a #ce1c2e */
   color: #ffa900; /* Cambio de color de fuente al estar activo a #ffa900 */
 }
 
