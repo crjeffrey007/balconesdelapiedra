@@ -6283,6 +6283,7 @@ textarea.form-input.form-input-lg {
 	border-radius: 50%;
 	background-color: #ffffff;
 	border: 2px solid #ffa900;
+	display: none;
 }
 
 .time-line-time {
