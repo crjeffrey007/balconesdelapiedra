@@ -1494,3 +1494,12 @@ $document.ready(function () {
 	}
 
 });
+
+// Opcional: Si deseas agregar un efecto de zoom al hacer clic en la imagen
+const galleryItems = document.querySelectorAll(".gallery-item");
+
+galleryItems.forEach((item) => {
+  item.addEventListener("click", () => {
+    item.classList.toggle("zoomed");
+  });
+});
